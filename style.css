@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.hero-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  color: black;
+}
+.logo img {
+  width: 50%;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  height: 80vh;
+}
+.btn {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 30px;
+}
+.quote {
+  display: flex;
+  align-items: center;
+}
+.quote-img img {
+  border-radius: 100%;
+  width: 50px;
+}
+.hero-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  gap: 20px;
+  height: 80vh;
+  background-image: url(images/bg-curve-desktop.svg);
+}
+.testimonial {
+  border: solid 2px transparent;
+  max-width: 250px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.hero-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(21, 21, 138);
+  padding: 30px 0px;
+  color: white;
+  margin-top: 50px;
+}
+.hero-text-3 {
+  max-width: 60%;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(30, 7, 112);
+}
+footer a {
+  display: flex;
+  color: white;
+  padding: 10px 0px;
+}
+@media (max-width: 700px) {
+  .hero,
+  .hero-2,
+  .hero-3 {
+    display: block;
+  }
+
+  .hero img {
+    max-width: 350px;
+  }
+  .hero-2 img {
+    max-width: 250px;
+  }
+}
